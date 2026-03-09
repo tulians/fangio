@@ -1,0 +1,6 @@
+[submodule "libs/dot"]
+	path = libs/dot
+	url = https://github.com/tulians/dot.git
+[submodule "libs/ciaa-base"]
+	path = libs/ciaa-base
+	url = https://github.com/tulians/ciaa-base.git

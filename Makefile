@@ -53,6 +53,7 @@ USE_SAPI=y
 MODULES=$(sort $(dir $(wildcard libs/*/)))
 SRC=$(wildcard $(PROGRAM_PATH_AND_NAME)/src/*.c)
 SRC+=$(wildcard src/*/*.c)
+SRC+=libs/ciaa-base/libs/cmsis_core/src/armv7m_startup.c
 
 CXXSRC=$(wildcard $(PROGRAM_PATH_AND_NAME)/src/*.cpp)
 CXXSRC+=$(wildcard src/*/*.cpp)

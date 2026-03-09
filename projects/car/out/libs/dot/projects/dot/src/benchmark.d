@@ -1,5 +1,7 @@
-projects/car/out/projects/car/src/main.o: projects/car/src/main.c \
- libs/sapi//inc/sapi.h libs/sapi//inc/sapi_datatypes.h \
+projects/car/out/libs/dot/projects/dot/src/benchmark.o: \
+ libs/dot/projects/dot/src/benchmark.c \
+ libs/dot/projects/dot/inc/benchmark.h libs/sapi//inc/sapi.h \
+ libs/sapi//inc/sapi_datatypes.h \
  libs/lpc_open/inc/boards/edu_ciaa_nxp/board.h libs/lpc_open//inc/chip.h \
  libs/lpc_open//inc/sys_config.h libs/lpc_open//inc/cmsis.h \
  libs/lpc_open//inc/lpc_types.h libs/lpc_open//inc/cmsis_43xx.h \
@@ -62,6 +64,4 @@ projects/car/out/projects/car/src/main.o: projects/car/src/main.c \
  libs/sapi//inc/sapi_imu_mpu9250.h libs/sapi//inc/sapi_keypad.h \
  libs/sapi//inc/sapi_lcd.h libs/sapi//inc/sapi_magnetometer_hmc5883l.h \
  libs/sapi//inc/sapi_magnetometer_qmc5883l.h libs/sapi//inc/sapi_rgb.h \
- libs/sapi//inc/sapi_servo.h libs/sapi//inc/sapi_ultrasonic_hcsr04.h \
- libs/dot/projects/dot/inc/nn.h libs/dot/projects/dot/inc/matrix.h \
- libs/dot/projects/dot/inc/benchmark.h
+ libs/sapi//inc/sapi_servo.h libs/sapi//inc/sapi_ultrasonic_hcsr04.h

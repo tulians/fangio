@@ -234,7 +234,6 @@ format:
 	@echo Formatting code...
 	$(Q)find projects -name "*.c" -o -name "*.h" | xargs -r clang-format -i
 	$(Q)find src -name "*.c" -o -name "*.h" | xargs -r clang-format -i
-	$(Q)find libs/dot -name "*.c" -o -name "*.h" | xargs -r clang-format -i
 
 # Information
 .info:

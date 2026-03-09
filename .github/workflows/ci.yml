@@ -1,4 +1,4 @@
-name: Car CI
+name: Fangio CI
 
 on:
   push:

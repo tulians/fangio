@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-# ciaa-base
+# fangio
 
 Minimal code required to blink a led using the EDU-CIAA-NXP board.
 
@@ -14,8 +14,8 @@ Minimal code required to blink a led using the EDU-CIAA-NXP board.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tulians/ciaa-base.git
-   cd ciaa-base
+   git clone https://github.com/tulians/fangio.git
+   cd fangio
    ```
 
 2. **Build the sample program (blinky):**

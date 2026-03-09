@@ -80,7 +80,7 @@ TARGET_NM=$(basename $(TARGET)).names.csv
 TARGET_ELF=$(basename $(TARGET)).elf
 TARGET_AXF=$(basename $(TARGET)).axf
 
-INCLUDE_FLAGS=$(foreach m, $(MODULES), -I$(m)/inc) -I$(PROGRAM_PATH_AND_NAME)/inc -Ilibs/cmsis_core/inc -Isrc/perception -Isrc/control -Isrc/decision -Isrc/drivers $(INCLUDES)
+INCLUDE_FLAGS=$(foreach m, $(MODULES), -I$(m)/inc) -I$(PROGRAM_PATH_AND_NAME)/inc -Ilibs/cmsis_core/inc -Ilibs/dot/projects/dot/inc -Isrc/perception -Isrc/control -Isrc/decision -Isrc/drivers $(INCLUDES)
 DEFINES_FLAGS=$(foreach m, $(DEFINES), -D$(m))
 OPT_FLAGS=-ggdb3 -O$(OPT) -ffunction-sections -fdata-sections
 LIBSDEPS=$(addprefix $(OUT)/, $(addsuffix .a, $(basename $(foreach l, $(LIBS), $(foreach m, $(MODULES), $(wildcard $(m)/lib/lib$(l).hexlib) ) ))))
